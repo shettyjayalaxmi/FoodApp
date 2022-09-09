@@ -1,0 +1,100 @@
+@font-face{
+    font-family: raleway-bold;
+    src:url(fonts/Raleway-ExtraBold.ttf)
+}
+*{
+    font-family: raleway-bold;
+    color:black;
+}
+.container2{
+  background-color:rgb(255, 255, 255);
+  width: 90%;
+  padding-top: 15px;
+  padding-bottom:15px;
+  margin: 0 auto;
+      margin-top: 0px;
+      margin-right: 30px;
+      margin-left: 50px;
+  position:relative;
+  color:rgb(0, 0, 0);
+  
+  }
+.menu{
+    width:100%;
+    text-align: center;
+    position:relative;
+    top:40px;
+}
+.cuisines a{
+    text-decoration: none;
+    padding:15px;
+    font-size: 25px;
+    background-color:rgb(24, 22, 22);
+    color:white;
+}
+
+.allcuisine{
+    margin:30px;
+}
+.allcuisine h1{
+     position:relative;
+     text-align: center;
+     top:-170px;
+     font-family:'Times New Roman', Times, serif;
+     text-decoration:underline;
+     color:rgb(0, 0, 0);
+}
+
+/*.menu1{
+    display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  -ms-flex-pack: distribute;
+    justify-content: space-around;
+  -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  margin: 1rem auto;
+  width: 90%;}*/
+
+   .box {
+    height: 20rem;
+    width: 25rem;
+    border-radius: .5rem;
+    /*margin: 2rem;*/
+    position: relative;
+    top:0;
+  }
+
+.row{
+    width:1200px;
+    height: 450px;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+
+  .food1{
+    float:left;
+  }
+   .box img{
+    width:100%;
+    height:100%;
+    border-radius:10%;
+  }
+
+  .box a{
+    padding:10px;
+    border:rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+  }
+  .food2{
+    float:right;
+  }
+  .food3 .box{
+    position: relative; 
+    right:-400px;
+    top:-320px
+  }

@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+<head><title> Food/Restaurant Website Design </title>
+<link type="text/css" rel="stylesheet" href="mainhome.css">
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+<!--background video-->
+<div class="videointro">
+      <video autoplay muted loop id="video1">
+            <source src="5v.mp4">
+      </video>   
+
+<!--header begins --><form>
+     <div class="container">
+   <center>  <a href="#" class="logo"><img src="about-icon-3.png" alt="">GoodBites</a></div></center>
+ <!--  <nav class="navbar">-->
+   <!-- <selelct name="website1" size="1">
+
+   <option>   <a href="mainhome.html" style="color: black;padding:4px;">home</a></option>
+    <option><a href="about.html" style="color: black;padding:4px;">about</a></option>
+      
+     <option> <a href="menu.html"style="color: black;padding:4px;">menu</a></option>
+    <option>  <a href="reservation.html"style="color: black;padding:4px;">Reservation</a></option>
+    <option>  <a href="order.html"style="color: black;padding:4px;">Order</a></option>
+    <option>  <a href="contact.html" style="color: black;padding:4px;">Contact</a></option>
+   <option>  <a href="register_form.php"style="color: black;padding:4px;">Sign Up</a></option>
+      
+      </nav></selelct>
+       </div></form>-->
+<div class="btn">
+         <span class="fas fa-bars"></span>
+      </div>
+      <nav class="sidebar">
+         <div class="text">
+          <i> Side Bar</i>
+         </div>
+         <ul>
+            <li class="active"><a href="register_form.php">Sign Up</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li>
+               <a href="about.html" class="feat-btn">About Us
+               <span class="fas fa-caret-down first"></span>
+               </a>
+            </li>
+            <li>
+               <a href="menu.html" class="serv-btn">Menu
+               <span class="fas fa-caret-down second"></span>
+               </a>
+            </li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+         </ul>
+      </nav>
+      <div class="content">
+         <div class="header">
+         </div>
+      </div>
+      <script>
+         $('.btn').click(function(){
+           $(this).toggleClass("click");
+           $('.sidebar').toggleClass("show");
+         });
+           $('.feat-btn').click(function(){
+             $('nav ul .feat-show').toggleClass("show");
+             $('nav ul .first').toggleClass("rotate");
+           });
+           $('.serv-btn').click(function(){
+             $('nav ul .serv-show').toggleClass("show1");
+             $('nav ul .second').toggleClass("rotate");
+           });
+           $('nav ul li').click(function(){
+             $(this).addClass("active").siblings().removeClass("active");
+           });
+      </script>
+<!--home page-->
+
+
+
+      <div class="intro">
+      <h3 style="padding-bottom: 10px;">....</h3>
+      <h2 style="padding-bottom: 10px;font-style:italic;">Top Services and Premium Cuisine</h2>
+       <h1 class="h1">Welcome to GoodBites </h1>
+       <h1 class="h1" style="padding-bottom: 20px;">Restaurant</h1>
+       <a href="menu.html" class="btn1">Click out our menu --></a>
+
+      </div>
+</div>
+<div class="hero-section-scroll">
+      <div class="mousey">
+          <div class="scroller"></div>
+          
+      </div>
+</body>
+</html>
+

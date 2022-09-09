@@ -1,0 +1,265 @@
+@font-face {
+    font-family: ovo;
+    src: url(fonts/Ovo-Regular.ttf);
+}
+@font-face{
+    font-family: raleway-bold;
+    src:url(fonts/Raleway-ExtraBold.ttf)
+}
+@font-face{
+    font-family: akaDora;
+    src:url(fonts/akaDora.ttf)
+}
+.starting{
+    width:1350px;
+    height:600px;
+    margin:0;
+    padding:0;
+    background-color: #000;
+}
+
+.sidebar{
+    position:absolute;
+    top: -0px;
+}
+.aboutcontainer{
+    background-color:white;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom:15px;
+    position:relative;
+    top:-628px;
+    font-family: 'Dosis', sans-serif;
+    
+    }
+    .logo{
+    font-size:40px;
+    font-weight:800;
+    color:rgb(190, 131, 20);
+    text-decoration: overline;
+    }
+    .logo img{
+       height: 55px;
+    }
+    .navbar {
+    font-size:20px;
+    padding:13px;
+    position: absolute;
+    top: 19px;
+    right:0;
+    }
+    .navbar a{
+
+        text-decoration: none;
+        font-family: ovo;
+        font-size:25px;
+    }
+/*.about {
+    /*max-width: 1224px;
+    width: 92%;
+    margin: 0 auto;
+    margin-top: 1000px;
+    margin-right: auto;
+    margin-bottom: 1000px;
+    margin-left: auto;
+    position: relative;
+    z-index: 5;
+}
+.section-title {
+    float: left;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+}*/
+
+.center{
+    position:relative;
+    top:-450px;
+    display:block;
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ .center h1{
+    font-size: 40px;
+    text-decoration:underline double rgb(255, 255, 255);
+}
+.brush-dec {
+    position:absolute;
+    bottom:-5px;
+    background-image:url('brush-dec.png');
+    width:100%;
+    background-size: cover;
+    height:50px;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-origin: content-box;
+ }
+
+ .about {
+    width: 100%;
+    padding-top: 80px;
+    /*margin-right: auto;
+    margin-left: auto;*/
+}
+.img1{
+    float: right;
+    margin-right:80px;
+
+}
+.p1{
+    font-family: ovo;
+    background-color: rgba(228, 204, 187, 0.993);
+    padding:30px;
+    width: 500px;
+    position: relative;
+    left:130px;
+    top:30px;
+}
+.p1 img{
+    float:left;
+}
+
+.opening{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 100px 0;
+    padding-top:100px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.img2{
+    position: absolute;
+    left:30;
+}
+
+.overlay{
+     
+        position: absolute;
+        top: -5px;
+        left: 0;
+        width: 60%;
+        height: 630px;
+        background: #000;
+        opacity: 0.4;
+        z-index: 3;
+    
+}
+
+.quote-box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 150px;
+    /*padding:0 90px;
+    padding-top: 0px;*/
+    padding-right: 200px;
+    padding-left: 90px;
+    z-index: 5;
+}
+.q1 p{
+    color:white;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: akaDora;
+}
+.column-section-wrap{
+    float: right;
+    /*width: 70%;*/
+    position: relative;
+    padding: 0 auto;
+    padding-left: 50px;
+
+}
+.pattern2 {
+    max-width: 1224px;
+    position: relative;
+    left:-50px;
+
+}
+.bgcolor{
+    background-color: rgb(51, 51, 51);
+    position:relative;
+    top:-580px;
+    left:40px;
+    width:550px;
+    height:550px;
+}
+
+.content{
+    padding:30px;
+    color: white;
+    text-align: center;
+    font-family: raleway-bold;
+
+}
+
+
+/*.column-text {
+    max-width: 550px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    position: relative;
+    z-index: 3;
+}
+.section-title {
+    float: left;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+}
+.dots-separator {
+    margin: 10px 0 30px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+}*/
+.fl-wrap {
+    float: left;
+    width: 100%;
+    position: relative;
+    left:-150px;
+
+}
+.f2-wrap {
+    float: right;
+    width: 100%;
+    position: relative;
+    right:-150px;
+    top:-160px
+
+}
+
+.hours {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.dash{
+    position: relative;
+    top: -150px;
+    color:orange;
+}
+
+.big-number a{
+    text-decoration: none;
+    border:solid orange;
+    color: #fff;
+    padding:10px;
+    font-size: 40px;
+    position: relative;
+    bottom:100px;
+}
+
+
+

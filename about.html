@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="about.css">
+    <link type="text/css" rel="stylesheet" href="mainhome.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    
+</head>
+<body>
+    <section class="starting">
+    <img src="about2.jpg" width="100%" height="635px" style="opacity:0.6;">
+
+    <div class="aboutcontainer">
+   <center>    <a href="#" class="logo"><img src="about-icon-3.png" alt="">GoodBites</a>
+    </div></center>
+      <!--       <nav class="navbar">
+              <a href="index.html" style="color: black;padding:4px;">Home</a>
+              <a href="about.html" style="color: black;padding:4px; ">About</a>
+              
+              <a href="menu.html"style="color: black;padding:4px; ">Menu</a>
+              <a href="reservation.html"style="color: black;padding:4px; ">Reservation</a>
+              <a href="order.html"style="color: black;padding:4px;">Order</a>
+              <a href="contact.html" style="color: black;padding:4px; ">Contact</a>
+              <a href="logout.php"style="color: black;padding:4px;">logout</a>
+    </nav></div>-->
+    <div class="btn">
+         <span class="fas fa-bars"></span>
+      </div>
+      <nav class="sidebar">
+         <div class="text">
+          <i> Side Bar</i>
+         </div>
+         <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li>
+               <a href="about.html" class="feat-btn">About Us
+               <span class="fas fa-caret-down first"></span>
+               </a>
+            </li>
+            <li>
+               <a href="menu.html" class="serv-btn">Menu
+               <span class="fas fa-caret-down second"></span>
+               </a>
+            </li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="register_form.php">Sign up</a></li>
+         </ul>
+      </nav>
+      <div class="content">
+         <div class="header">
+         </div>
+      </div>
+      <script>
+         $('.btn').click(function(){
+           $(this).toggleClass("click");
+           $('.sidebar').toggleClass("show");
+         });
+           $('.feat-btn').click(function(){
+             $('nav ul .feat-show').toggleClass("show");
+             $('nav ul .first').toggleClass("rotate");
+           });
+           $('.serv-btn').click(function(){
+             $('nav ul .serv-show').toggleClass("show1");
+             $('nav ul .second').toggleClass("rotate");
+           });
+           $('nav ul li').click(function(){
+             $(this).addClass("active").siblings().removeClass("active");
+           });
+      </script>
+
+
+   <div class="center">
+    <i style="font-size:20px"> Enjoy your time in our Restaurant with pleasure</i>
+    <h1>About Us Travel the food around world</h1>
+    </div></div>
+
+    <div class="brush-dec"></div></section>
+    <!--about starts here-->
+  
+  <section class="about">
+ <div class="img1"><img src="sideimg2.jpg" width="600px" height="400px"></div>
+      <div class="p1"><img src="lady1.webp" height="300px" >
+        <h2 style="font-weight:1000;font: size 30px;">AUTHENTIC TRADITIONAL AND MODERN INDIAN CUISINE</h2>
+        <p style="font-size:20px">Life has all the twist and turn but food never betrays you. 
+        We serve the best authentic, traditional and modern indian cuisine.
+         We've also got the largest tequila and mezcal collection in the country. </p>
+       <b><a href="menu.html" style="text-decoration: none;color:black;border:solid white;padding:10px;">
+        View Our menu</a></b>
+      </div>
+</section>
+</div>
+<section class="opening">
+    <div class="img2">
+        <img src="12.jpg" width="1500px" height="620px">
+   <!---<div class="overlay"></div>-->
+    <div class="quote-box">
+        <div class="q1">
+            <img src="quotes.gif" width="50px" height="50px">
+        <p>"One of the very nicest things about life is </p>
+        <p> the way we must regularly stop whatever it is </p>
+         <p>   we are doing and</p>
+           <p> devote our attention to eating.”</p>
+
+           <p> – Luciano Pavarotti </p>
+        </div>
+    </div>
+    </div>
+    <!--<div class="column-section-wrap">
+        <div class="pattern2">
+            <img src="bgdesign2.jpg" width="620px" height="620px" style="opacity: 0.9;">
+        <div class="bgcolor">
+            <div class="content">
+                <h4 style="color:orange">Call For Reservations</h4>
+                    <h1 style="font-size: 35px;">Opening Hours</h1>
+                    <span style="color:orange">* * * * *</span>
+                    <div class="fl-wrap">
+                            <h1 style="color:orange">Sunday to Tuesday</h1>
+                            <div class="hours">
+                                09:00<br>
+                                22:00
+                            </div>
+                    </div>
+                    <div class="f2-wrap">
+                            <h1 style="color:orange">Friday to Saturday</h1>
+                            <div class="hours">
+                                11:00<br>
+                                19:00
+                            </div>
+                    </div>
+                    <div class="dash">-----------------------------</div>
+                <div class="big-number"><a href="#">+7(111)123456789</a></div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>-->
+
+</body>
+</html>
+

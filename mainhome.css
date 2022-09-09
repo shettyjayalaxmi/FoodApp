@@ -1,0 +1,262 @@
+*{
+   font-family: 'Dosis', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   transition: all 0.4s cubic-bezier(.43,1.1,.62,1.08);
+   text-transform: capitalize;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.btn{
+  position: absolute;
+  top: 15px;
+  left: 45px;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  background: #1b1b1b;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: left 0.4s ease;
+}
+.btn.click{
+  left: 260px;
+}
+.btn span{
+  color: white;
+  font-size: 28px;
+  line-height: 45px;
+}
+.btn.click span:before{
+  content: '\f00d';
+}
+.sidebar{
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  left: -250px;
+  background-color: #ffffff;
+  transition: left 0.4s ease;
+}
+.sidebar.show{
+  left: 0px;
+}
+.sidebar .text{
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 65px;
+  text-align: center;
+  background: #ffffff;
+  letter-spacing: 1px;
+}
+nav ul{
+  background: #ffffff;
+  height: 100%;
+  width: 100%;
+  list-style: none;
+}
+nav ul li{
+  line-height: 60px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+nav ul li:last-child{
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+nav ul li a{
+  position: relative;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 40px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  border-left: 3px solid transparent;
+}
+nav ul li.active a{
+  color: cyan;
+  background: #1e1e1e;
+  border-left-color: cyan;
+}
+nav ul li a:hover{
+  background: #1e1e1e;
+}
+nav ul ul{
+  position: static;
+  display: none;
+}
+nav ul .feat-show.show{
+  display: block;
+}
+nav ul .serv-show.show1{
+  display: block;
+}
+nav ul ul li{
+  line-height: 42px;
+  border-top: none;
+}
+nav ul ul li a{
+  font-size: 17px;
+  color: #e6e6e6;
+  padding-left: 80px;
+}
+nav ul li.active ul li a{
+  color: #e6e6e6;
+  background: #1b1b1b;
+  border-left-color: transparent;
+}
+nav ul ul li a:hover{
+  color: cyan!important;
+  background: #1e1e1e!important;
+}
+nav ul li a span{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 22px;
+  transition: transform 0.4s;
+}
+nav ul li a span.rotate{
+  transform: translateY(-50%) rotate(-180deg);
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #202020;
+  z-index: -1;
+  text-align: center;
+}
+.content .header{
+  font-size: 45px;
+  font-weight: 600;
+}
+.content p{
+  font-size: 30px;
+  font-weight: 500;
+}
+.videointro{
+   width:100%;
+}
+#video1{
+    
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   min-width: 100%; 
+   min-height: 100%;
+ 
+}
+.container{
+background-color:rgb(255, 255, 255);
+width: 100%;
+padding-top: 15px;
+padding-bottom:15px;
+position:relative;
+top:0;
+
+}
+.logo{
+font-size:40px;
+font-weight:800;
+color:rgb(190, 131, 20);
+text-decoration: overline;
+text-align:center;
+}
+.logo img{
+   height: 45px;
+   text-align:center;
+}
+.navbar {
+font-size:20px;
+padding:13px;
+position: absolute;
+top: 19px;
+right:0;
+}
+
+.intro{
+   position: absolute;
+   top: 200px;
+   right:0;
+   margin: 0 auto;
+    margin-top: 0px;
+    margin-right: 30px;
+    margin-left: 50px;
+   color: white;
+}
+
+.h1{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 800;
+   font-size: 80px;
+}
+
+.btn1{
+   border: solid #ee9906;
+   padding: 10px;
+   font-weight: 700;
+   color:white;
+  
+}
+.hero-section-scroll {
+   position: absolute;
+   width: 20px;
+   height: 30px;
+   z-index: 20;
+   bottom: 40px;
+   left: 50%;
+   margin-left: -10px;
+}
+.mousey {
+   float: left;
+   width: 20px;
+   height: 30px;
+   border-radius: 6px;
+   padding: 0 6px;
+   border: 2px solid #fff;
+   box-sizing: border-box;
+   position: relative;
+   z-index: 10;
+}
+.scroller {
+   position: relative;
+   left: 50%;
+   top: 6px;
+   margin-left: -2px;
+   width: 4px;
+   height: 4px;
+   background: rgba(255,255,255, 0.4);
+   border-radius: 4px;
+   animation-name: scroll;
+   animation-duration: 2.2s;
+   animation-timing-function: cubic-bezier(.15, .41, .69, .94);
+   animation-iteration-count: infinite;
+}
+/*.brush-dec {
+   position: absolute;
+   left: 0;
+   z-index: 20;
+   height: 40px;
+   width: 100%;
+   z-index: 20;
+   background-size: cover;
+   background-attachment: scroll;
+   background-position: center;
+   background-repeat: repeat;
+   background-origin: content-box;
+}*/
+
